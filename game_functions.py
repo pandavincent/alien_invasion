@@ -46,6 +46,7 @@ def check_events(ai_settings, screen, ship, bullets):
 def update_screen(ai_settings, screen, ship, aliens, bullets):
     # Redraw the screen during each pass through the loop
     screen.fill(ai_settings.bg_color)
+    # screen.blit(ai_settings.bg, (0,0))
 
     # Redraw all bullets behind ship and aliens
     for bullet in bullets.sprites():
