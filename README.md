@@ -8,3 +8,5 @@ Please install pygame before running the program:
 
 To run the game:
 python3 alien_invasion
+
+Source: Python Crash Course Chapter 12 - 14
